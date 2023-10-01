@@ -1,0 +1,142 @@
+ <!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href="css/eattendancepage.css">
+    </head>
+    <body>
+        <div class="all">
+       
+            <div class="menubar">
+                <div class="imglogo"></div>
+                <div>Home</div>
+                <div>Pay Rolls</div>
+                
+                <div><input type="search" name="search"/><span>Search</span></div>
+                <div class="profile"><a href="#">profile</a></div>
+                <span class="name">Name</span>
+                <div class="feature">Features
+                    <a href="#">Add Employee</a>
+                    <a href="#">Remove Employee</a>
+                    <a href="eattendance.php">Attendence</a>
+                    <a href="#">Leave Notes</a>
+                    <a href="#">Time Cards</a>
+                    <a href="#">Update Existing Employee</a>
+                </div>
+              
+            </div>
+    
+            <div class="announcement"> Announcements
+                <a href="#" >Creae Notification</a>
+                <a href="#" >Send Notification</a>
+                <a href="#">Schedule Notification</a>
+            </div>
+            
+        </div>
+        <!--body parts-->
+    
+     <!-- body parts-->
+     <div class="base">
+        <form action="#" method="POST">
+        
+            <table class="table" border="1px">
+                <tr class="firstrow">
+                    <th class="SN" >SN</th>
+                    <th class="photos">Photos</th>
+                    <th>Name</th>
+                    <th>Present</th>
+                    <th>Absent</th>
+                    <th>Date</th>
+                    <th>Day</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td type="1">1</td>
+                    <td class="photo"> </td>
+                    <td>Aakash Shrestha</td>
+                    <td><input type="radio" name="present1" class="tick" id=""> </td>
+                    <td><input type="radio" name="present1" class="tick"></td>
+                    <td> <?php echo date("d/m/Y"); ?> </td>
+                    <td> <?php echo date("l"); ?> </td>
+                    <td class="remarktd"><textarea name="remarks" class="remarks"></textarea></td>
+                
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td class="sphoto"></td>
+                    <td>Aman Sriwastav</td>
+                    <td><input type="radio" name="present2" class="tick"> </td>
+                    <td> <input type="radio" name="present2" class="tick"> </td>
+                    <td><?php echo date("d/m/Y"); ?></td>
+                    <td><?php echo date("l"); ?></td>
+                    <td><textarea></textarea></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td class="pp3"></td>
+                    <td>Susovit Bidari</td>
+                    <td> <input type="radio" name="present3" class="tick"> </td>
+                    <td> <input type="radio" name="present3" id="" class="tick"> </td>
+                    <td> <?php echo date("d/m/Y"); ?> </td>
+                    <td> <?php echo date("l") ?> </td>
+                   
+                    <td> <textarea></textarea> </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td class="pp4"></td>
+                    <td>Mahendra Kunwar</td>
+                    <td> <input type="radio" id="present" name="present4" value="present"  class="tick"> </td>
+                    <td> <input type="radio" id="absent"  name="present4" value="absent" class="tick"> </td>
+                    <td> <?php echo date("d/m/Y"); ?> </td>
+                    <td> <?php echo date("l") ?> </td>
+                    <td> <textarea></textarea> </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td class="pp5"></td>
+                    <td>Anup Adhikari</td>
+                    <td> <input type="radio" name="present5" class="tick" ></td>
+                    <td> <input type="radio" name="present5" id="" class="tick"> </td>
+                    <td> <?php echo date("d/m/Y"); ?> </td>
+                    <td> <?php echo date("l") ?> </td>
+                    <td> <textarea></textarea> </td>
+                </tr>
+            </table>
+            <input type="submit" name="submit" value="Submit" class="submitbtn">
+            <a href="#" class="addemp">Add Employee</a>
+            <a href="#" class="cancel">Cancel</a>
+        </form>
+        </div>
+    
+    
+    
+        <!--footer parts-->
+    
+        <div class="foot">
+            <div class="horizantalline"></div>
+         </div>
+             </div>
+             <div class="background">
+                 <div class="media">
+                     <a href="#" class="">Facebook</a>
+                     <a href="#" class="">Instagram</a>
+                     <a href="#" class="">Twitter</a>
+                     <a href="#" class="">LinkedIn</a>
+                 </div>
+                 <div class="media2">
+                     <a href="#">Blog</a>
+                     <a href="#">Contact Us</a>
+                     <a href="#">Donations</a>
+                     <a href="#">Terms and Conditions</a>
+                     <footer style="text-align: center;"class="">2021&copy;All Rights Reserved.</footer>
+                 </div>
+                 <div class="sign"><a href="#">Sign Up</a></div>
+                 <div class="emailus">
+                     <input type="email" class="" value="" placeholder="Example@gmail.com"/>
+                 </div>
+                 
+                   </div>
+         
+    </body>
+    </html>
+    </body>
+</html>
